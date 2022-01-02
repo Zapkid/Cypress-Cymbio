@@ -1,0 +1,15 @@
+{
+  "name": "cymbio",
+  "version": "1.0.1",
+  "description": "Cymbio basic web tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rowan Kendal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
