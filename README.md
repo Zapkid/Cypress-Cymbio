@@ -7,11 +7,14 @@ Using Cypress to test Cymbio website GUI
 3. Asserts Chat button opens & closes the chat box.
 
 Dependencies:
-cypress-iframe
+[cypress-iframe](https://npm.io/package/cypress-iframe)
 
 Configurations:
-Set "chromeWebSecurity": false in cypress.json
+If you are using your own project, you must Set "chromeWebSecurity": false in cypress.json
 
-Run options:
-Run the spec file by opening the project in Cypress or directly through CLI on the project path.
+Run steps:
+1. Download the project as a zip file & extract to your chosen directory.
+2. Open a CLI on the extracted project path and install cypress-iframe with - 'npm install -D cypress-iframe'
+3. Run the tests with - 'npx cypress run --browser chrome --headed'
+
 
